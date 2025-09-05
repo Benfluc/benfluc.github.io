@@ -27,5 +27,3 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Google Analytics (opcional)
-google_analytics: UA-XXXXXX-X
