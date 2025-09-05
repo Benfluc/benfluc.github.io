@@ -17,6 +17,6 @@ Python, Pandas, Scikit-learn, TensorFlow, MatLab.
 - [Artigo completo (PT)](artigo_previsao.md)
 
 ## Códigos
-- [MLP](Preço_café_MLP.ipynb)
-- [GRU e LSTM](Preço_café_GRU_LSTM.ipynb)
-- [Árvores de Decisão](Preço_café_XGBoost_RANDOM.ipynb)
+- [MLP](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Previsao/Pre%C3%A7o_caf%C3%A9_MLP.ipynb)
+- [GRU e LSTM](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Previsao/Pre%C3%A7o_caf%C3%A9_GRU_LSTM.ipynb)
+- [Árvores de Decisão](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Previsao/Pre%C3%A7o_caf%C3%A9_XGBoost_RANDOM.ipynb)
