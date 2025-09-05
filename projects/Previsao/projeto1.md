@@ -16,6 +16,6 @@ Python, Pandas, Scikit-learn, TensorFlow, MatLab.
 [Ver artigo completo](https://medium.com/@luciojuniobenfica2/forecasting-coffee-export-values-using-artificial-intelligence-a-comparative-study-between-neural-f2ff56e32114)
 
 ## Códigos
-[MLP](Preço_café_MLP.ipynb)
-[GRU e LSTM](Preço_café_GRU_LSTM.ipynb)
-[Árvores de Decisão](Preço_café_XGBoost_RANDOM.ipynb)
+- [MLP](Preço_café_MLP.ipynb)
+- [GRU e LSTM](Preço_café_GRU_LSTM.ipynb)
+- [Árvores de Decisão](Preço_café_XGBoost_RANDOM.ipynb)
