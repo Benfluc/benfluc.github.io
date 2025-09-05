@@ -2,9 +2,6 @@ title: "Portfólio de Lúcio Benfica"
 description: "Análise de Dados, Modelagem Computacional e Inteligência Artificial aplicada a problemas reais"
 theme: jekyll-theme-slate
 
-# Links principais
-show_downloads: false
-
 # Links de contato/redes
 social_links:
   github: https://github.com/benfluc
