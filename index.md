@@ -5,7 +5,8 @@
 - [Projeto 2](#)
 
 ### Contato:
-- Email: luciojuniobenfica2@gmail.com
+
 - [LinkedIn](https://www.linkedin.com/in/lúcio-j-benfica-6903a3103/)
 - [Github](https://github.com/benfluc)
 - [Médium](https://medium.com/@luciojuniobenfica2)
+- Email: luciojuniobenfica2@gmail.com
