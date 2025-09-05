@@ -1,9 +1,31 @@
-title: "Portfólio de Lúcio Benfica"
-description: "Análise de Dados, Modelagem Computacional e Inteligência Artificial aplicadas a problemas reais"
-theme: just-the-docs
+# _config.yml
 
-# Links de contato/redes
-social_links:
-  github: https://github.com/benfluc
-  linkedin: https://www.linkedin.com/in/lúcio-j-benfica-6903a3103/
-  medium: https://medium.com/@luciojuniobenfica2
+# Informações básicas
+title: "Portfólio de Lúcio Benfica"
+email: "luciojuniobenfica2@gmail.com"
+description: >- # aparece nos meta tags e preview
+  Cientista de Dados • Redes Neurais • 5G • ETL
+baseurl: "" # se o site for direto no GitHub Pages deixe vazio
+url: "https://benfluc.github.io" # seu endereço do site
+
+# Redes sociais (o Kross usa no rodapé e no cabeçalho)
+social:
+  - title: "github"
+    url: "https://github.com/benfluc"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/lúcio-j-benfica-6903a3103/"
+  - title: "Medium"
+    url: "https://medium.com/@luciojuniobenfica2"
+
+# Configurações do tema
+theme: kross-jekyll # se estiver usando como gem, senão basta manter os arquivos do tema na pasta
+markdown: kramdown
+
+# Plugins (alguns úteis para portfólio e SEO)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Google Analytics (opcional)
+google_analytics: UA-XXXXXX-X
