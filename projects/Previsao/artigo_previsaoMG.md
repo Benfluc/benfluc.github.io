@@ -62,6 +62,7 @@ O modelo foi calculado com e sem utilização dessas variáveis, a fim de se tes
 O MG e a RNA do tipo MLP tiveram sua arquitetura e treinamento realizados com auxílio da ferramenta MATLAB. Para a MLP foram testadas diferentes arquiteturas de rede, variando entre uma e três camadas ocultas, com número de neurônios por camada entre 50 e 100. Foi adotada a configuração com menor erro médio absoluto (MAE), sendo a mesma estrutura utilizada tanto para o cálculo com e sem as variáveis dummies. Os dados foram divididos em 70% para treino, 15% para teste e 15% para validação.  A Figura 1 exibe a arquitetura completa da rede utilizada. A primeira camada oculta conta com 100 neurônios, cada um ativado por uma função sigmoide que transforma a combinação linear das entradas em um valor entre 0 e 1, o que é útil para introduzir não linearidade na rede e ajudar na aprendizagem de padrões complexos. Na sequência, a segunda camada oculta é composta por 50 neurônios, também ativados por uma função sigmoide. 
 Por fim, a camada de saída é dotada de função de ativação linear, ou seja, a saída da rede é dada diretamente pela combinação ponderada das ativações da segunda camada, sem aplicação de não linearidade. Essa escolha é particularmente apropriada quando a tarefa exige previsões em escala contínua e irrestrita, como é o caso de modelos preditivos de quantidades, como apontado por Goodfellow et. al (2016).
 
+![Estrutura da Rede Neural](img/matlab.png)
 
 *Arquitetura da MLP com duas camadas intermediárias (hidden layers) a primeira com 100 neurônios e a segunda com 50, ambas ativadas pela função sigmoide a qual transforma as entradas em valores contínuos entre 0 e 1, introduzindo não linearidade ao modelo. Por fim, a camada de saída conta com um único neurônio ativado por uma função linear, adequada para tarefas de regressão, pois permite que os valores de saída assumam qualquer valor contínuo ao longo do eixo real.*
 
@@ -78,7 +79,8 @@ Tabela 2 – Comparativo Modelo Gravitacional e MLP
 A rede neural MLP teve um desempenho ligeiramente melhor, superando o MG com uma diferença positiva no R² de 0,17 e MAE inferior em 0,48. Esse resultado demonstra a capacidade das RNAs em modelar relações não lineares, o que para essa aplicação permite uma melhor aproximação dos volumes reais transportados. É notável também que a inclusão das três dummies melhorou ambos os modelos com ganho de R² e diminuição do MAE, isso reforça o quanto a inserção de variáveis categóricas relacionadas a variável dependente pode influenciar o modelo de forma positiva.
 Analisando graficamente os desempenhos do MG e da MLP (Fig. 2) através dos valores reais e preditos por cada modelo, observa-se que o modelo MLP apresenta uma distribuição de pontos mais próxima da diagonal ideal, indicando maior aderência às observações reais. Além disso, há menor dispersão, especialmente para valores intermediários e altos, reforçando a superioridade do modelo na captura de padrões complexos. Embora ambos os modelos apresentem outliers e valores negativos esparsos, a MLP demonstrou ser mais robusta e precisa na tarefa de predição, o que se alinha aos indicadores quantitativos de desempenho apresentados anteriormente (R² e MAE).
 
-  
+![Comparativo MLP vs. MG](img/MLP2.png)![](img/MG.png)
+
 *Comparativo MLP vs. MG com valores reais. A MLP apresenta uma área (pontos azuis) mais achatada do que o MG. No entanto, é possível observar a presença de outliers (pontos azuis distantes da área central).*
 
 ## **4. CONSIDERAÇÕES FINAIS**
