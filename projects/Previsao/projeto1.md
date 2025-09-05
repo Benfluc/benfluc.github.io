@@ -13,8 +13,8 @@ Python, Pandas, Scikit-learn, TensorFlow, MatLab.
 
 
 ## Link para o artigo
-[Artigo completo (EN)](https://medium.com/@luciojuniobenfica2/forecasting-coffee-export-values-using-artificial-intelligence-a-comparative-study-between-neural-f2ff56e32114)
-[Artigo completo (PT)](artigo_previsao)
+- [Artigo completo (EN)](https://medium.com/@luciojuniobenfica2/forecasting-coffee-export-values-using-artificial-intelligence-a-comparative-study-between-neural-f2ff56e32114)
+- [Artigo completo (PT)](artigo_previsao)
 
 ## Códigos
 - [MLP](Preço_café_MLP.ipynb)
