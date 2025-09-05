@@ -1,4 +1,4 @@
-## Projetos em Destaque
+## Portfólio de Lúcio Benfica
 - [Análise Exploratória de Dados - Acidentes de Trabalho no Brasil](/projects/Exploratoria/projeto.md)
 - [Minimização de Custo Logístico](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Otimizacao/projeto.md)
 - [Previsão do valor de exportação do café com RNA's e Árvores de Decisão](/projects/Previsao/projeto1.md)
