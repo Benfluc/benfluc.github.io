@@ -1,0 +1,12 @@
+title: "Portfólio de Lúcio Benfica"
+description: "Data Science • ETL • Redes Neurais • 5G"
+theme: jekyll-theme-minimal
+
+# Links principais
+show_downloads: false
+
+# Links de contato/redes
+social_links:
+  github: https://github.com/benfluc
+  linkedin: https://www.linkedin.com/in/lúcio-j-benfica-6903a3103/
+  medium: https://medium.com/@luciojuniobenfica2
