@@ -16,7 +16,7 @@ Além disso atuei por mais de quatorze anos como gerente bancário, sendo també
 Pesquisa em Ciência de Dados e Modelagem Computacional.
 
 Experiência em ETL, Python, Pandas, Análise Exploratória, Predição com RNAs.  
-- Veja meu portfólio: [lucio-benfica.github.io](https://benfluc.github.io)
+- Veja meu portfólio: [benfluc.github.io](https://benfluc.github.io)
 
 **Contato:**
   Email: 
