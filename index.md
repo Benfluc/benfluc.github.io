@@ -1,6 +1,6 @@
 ## Projetos em Destaque
 - [Análise Exploratória de Dados](/projects/Exploratoria/projeto.md)
-- [Otimização de Redução de Custo](/projects/Otimizacao/projeto.md)
+- [Minimização de Custo Logístico](/projects/Otimizacao/projeto.md)
 - [Previsão do valor de exportação do café com RNA's e Árvores de Decisão](/projects/Previsao/projeto1.md)
 - [Projeto 2](#)
 
