@@ -1,5 +1,5 @@
 ## Projetos em Destaque
-- [Predição de Sofrimento Emocional com RNAs](#)
+- [Abordagens de séries temporais e técnicas de Deep Learning para predição de exportações de café](#)
 - [Classificação de Tráfego 5G com IA](#)
 
 ### Contato:
