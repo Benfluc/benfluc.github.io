@@ -9,4 +9,5 @@
 - [LinkedIn](https://www.linkedin.com/in/lúcio-j-benfica-6903a3103/)
 - [Github](https://github.com/benfluc)
 - [Médium](https://medium.com/@luciojuniobenfica2)
+- [Lattes](http://lattes.cnpq.br/1019898401725586)
 - Email: luciojuniobenfica2@gmail.com
