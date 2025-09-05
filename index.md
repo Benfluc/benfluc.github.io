@@ -1,6 +1,6 @@
 ## Projetos em Destaque
-- [Abordagens de séries temporais e técnicas de Deep Learning para predição de exportações de café](#)
-- [Classificação de Tráfego 5G com IA](#)
+- [Previsão do valor de exportação do café com RNA's e Árvores de Decisão](#)
+- [Projeto 2](#)
 
 ### Contato:
 - github: https://github.com/benfluc
