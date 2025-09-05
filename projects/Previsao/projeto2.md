@@ -19,4 +19,5 @@ Python, Pandas, Scikit-learn, TensorFlow, MatLab.
 - [Artigo completo (PT)](artigo_previsaoMG.md)
 
 ## Códigos
-- [MLP](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Previsao/Pre%C3%A7o_caf%C3%A9_MLP.ipynb)
+- [Modelo Gravitacional](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Previsao/Modelo_final.ipynb)
+- [MLP](https://github.com/Benfluc/benfluc.github.io/blob/main/projects/Previsao/MG%20e%20MLP.ipynb)
