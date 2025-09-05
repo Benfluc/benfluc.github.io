@@ -1,4 +1,4 @@
-# Olá, eu sou o Lúcio 👋
+# Portfólio Lúcio Benfica
 Aqui você encontra meus trabalhos em análise de dados, redes neurais e modelagem computacional
 
 ## Projetos em Destaque
