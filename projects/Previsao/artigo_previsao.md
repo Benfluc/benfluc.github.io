@@ -9,8 +9,8 @@ Keywords: Café; Preço; Séries Temporais; Inteligência Artificial; Redes Neur
 O Brasil ocupa uma posição de destaque no cenário agrícola mundial, sendo historicamente o maior produtor e exportador de café do planeta. A cultura cafeeira possui profunda relevância econômica, social e histórica para o país, influenciando desde a organização territorial até as relações comerciais internacionais. De acordo com o Conselho dos Exportadores de Café do Brasil (Cecafé), apenas em 2023, as exportações brasileiras de café movimentaram mais de 6 bilhões de dólares, demonstrando o peso dessa commoditie na balança comercial e no Produto Interno Bruto (PIB) nacional. Conforme pode ser visualizado na Fig. 1 o café é produzido em larga escala em todo o território nacional, com destaque para os estados de Minas Gerais e São Paulo, onde grande parte dessa produção é destinada as exportações. 
 Além do volume exportado, o valor de exportação em dólares representa um fator-chave para o planejamento estratégico de produtores, exportadores, cooperativas, formuladores de políticas públicas e investidores do setor. Variações nos preços internacionais do café — influenciadas por condições climáticas, flutuações cambiais, oferta global e demanda — podem gerar impactos significativos em toda a cadeia produtiva. Por isso, a previsão acurada dos preços de exportação torna-se uma ferramenta essencial para antecipar riscos, otimizar lucros e garantir maior estabilidade econômica para os agentes envolvidos.
 
- 
-Figura 1 – Produção de café no Brasil (IBGE, 2025)
+![Figura 1 – Produção de café no Brasil (IBGE, 2025)](img/cartograma_cafe_br.png)
+
 
 Nos últimos anos, a Inteligência Artificial (IA) tem se consolidado como uma aliada poderosa no campo da análise preditiva, sobretudo no contexto de séries temporais. Modelos como as Redes Neurais Recorrentes (RNN), com destaque para suas variantes Long Short-Term Memory (LSTM) e Gated Recurrent Unit (GRU), demonstram elevada capacidade de capturar padrões sazonais e dependências de longo prazo em séries temporais financeiras e agrícolas. Paralelamente, arquiteturas mais simples como a Multilayer Perceptron (MLP) ainda apresentam bons resultados em determinadas configurações.
 Além das redes neurais, algoritmos de aprendizado de máquina como o XGBoost (Extreme Gradient Boosting) e o Random Forest têm sido amplamente utilizados por sua robustez, capacidade de lidar com dados não lineares e desempenho competitivo em diferentes contextos de previsão. Esses modelos possibilitam explorar relações complexas entre variáveis de entrada (como clima, produção, câmbio) e o valor de exportação, sendo, portanto, alternativas eficazes para apoiar decisões estratégicas no setor cafeeiro. Portanto, este artigo tem como objetivo investigar e comparar o desempenho desses modelos de IA na previsão do valor de exportação mensal do café brasileiro, oferecendo uma análise técnica de suas capacidades preditivas e destacando o potencial de aplicação prática para stakeholders da cadeia do agronegócio. O artigo foi dividido da seguinte maneira: no capítulo 2 abordamos os materiais e métodos empregados, bem como as configurações adotadas em cada rede, no capítulo 3 apresentamos e discutimos os resultados obtidos e por fim, no capítulo 4 são expostas as considerações finais.
@@ -26,23 +26,24 @@ Para otimizar o desempenho de cada modelo, foi realizado um processo de busca de
 
 A análise dos resultados obtidos com os cinco modelos de aprendizado de máquina revela diferenças significativas em termos de desempenho, precisão e capacidade de generalização. As métricas consideradas — MAE, MAPE e R² — oferecem uma visão abrangente da eficácia de cada abordagem na tarefa de previsão. O modelo MLP apresentou excelente desempenho, com R² de 0,9691 no conjunto de teste, indicando alta capacidade de explicação da variabilidade dos dados. Além disso, o MAPE de 5,55% sugere um erro percentual relativamente baixo, o que é desejável em aplicações comerciais. Na Figura 2 podemos perceber que o modelo previsto pela MLP (linha laranja) ficou muito próximo dos valores reais (linha azul).
 
- 
-Figura 2 – Comparativo entre previsões do modelo MLP e preço real
+![Figura 2 – Comparativo entre previsões do modelo MLP e preço real](img/mlp.png) 
+
 
 A rede LSTM também obteve resultados bastante satisfatórios, com R² de 0,9673 e MAPE de 6,08%. Apesar de apresentar um erro ligeiramente maior do que o MLP, a LSTM se destaca pela capacidade de modelar dependências temporais mais longas, o que pode ser útil em cenários com maior variabilidade ou ruído nos dados. A arquitetura GRU, por sua vez, obteve o melhor desempenho entre as redes neurais, com R² de 0,9699, superando ligeiramente o MLP e a LSTM. Embora seu MAPE (6,24%) tenha sido um pouco superior ao do MLP, o equilíbrio entre erro absoluto, erro quadrático e coeficiente de determinação evidencia sua robustez. Na Figura 3 podemos ver as previsões feitas pelos modelos LSTM e GRU respectivamente.
  
- 
-Figura 3 – Comparativo previsões dos modelos LSTM e GRU vs valores reais
+![Figura 3 – Comparativo previsões dos modelos LSTM e GRU vs valores reais](img/lstm.png)![](img/gru.png)  
+
 
 Por outro lado, os modelos baseados em árvores — Random Forest e XGBoost — apresentaram desempenho inferior. O Random Forest alcançou um R² de apenas 0,8271, com MAPE de 7,39% e um RMSE bastante elevado (1165,67), indicando maior variabilidade nos erros. O XGBoost teve um leve ganho sobre o Random Forest, atingindo R² de 0,8515, mas com MAPE de 8,12%, o mais alto entre todos os modelos testados. Esses resultados sugerem que, embora robustos, os métodos baseados em árvores podem ter limitações na modelagem de séries temporais altamente dinâmicas como os preços do café. A Tabela 1 traz o comparativo das métricas entre todos os modelos.
 
 Tabela 1 – Comparativo entre os modelos
-Modelo	R²	MAE	MAPE (%)
-MLP	0,9691	10,14	5,55
-LSTM	0,9697	10,92	6,08
-GRU	0,9699	10,64	6,24
-Random Forest	0,8271	17,12	7,39
-XGBoost	0,8515	17,88	8,12
+| Modelo |    R²  | MAE    | MAPE (%) |
+|--------|--------|--------|----------|
+| MLP    | 0,9691 | 10,14  | 5,55     |
+| LSTM   | 0,9697 | 10,92  | 6,08     |
+| GRU    | 0,9699 | 10,64  | 6,24     |
+| Random Forest   | 0,8271 | 17,12  | 7,39     |
+| XGBoost   | 0,8515 | 17,88  | 8,12     |
 
 Observa-se, portanto, que as redes neurais, especialmente MLP e GRU, foram as mais eficazes na tarefa de previsão, apresentando melhores métricas em comparação aos modelos baseados em árvores. A simplicidade e a velocidade do MLP, aliadas à alta acurácia da GRU, sugerem que esses modelos são promissores para aplicações práticas no mercado cafeeiro.
 						
