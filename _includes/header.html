@@ -1,0 +1,59 @@
+<div id="particles-js">
+  <div class="header">
+      
+      <h1>
+      
+        <span class="site-title">{{site.username}}</span>
+        <span class="site-description">{{site.user_title}}</span>
+      
+      </h1>
+      <div class="header-icons">
+        <a aria-label="Send email" href="mailto:luciojuniobenfica2@gmail.com"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/lúcio-j-benfica-6903a3103/">
+          <img src="../assets/img/linkedin.png" alt="LinkedIn" class="custom-icon">
+        </a>
+        <a aria-label="My Medium" target="_blank" href="https://medium.com/@luciojuniobenfica2">
+          <img src="../assets/img/medium.png" alt="Medium" class="custom-icon">
+        </a>
+        <a aria-label="My Github" target="_blank" href="https://github.com/Benfluc">
+          <i class="icon fa fa-github-alt"></i>
+        </a>
+      </div>
+      <div class="header-links">
+        <a class="link" href="#about" data-scroll>About Me</a>
+        <a class="link" href="#projects" data-scroll>Projects</a>
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+
+
+<style>
+.header-icons {
+    display: flex;
+    align-items: center;  
+    gap: 15px;            
+}
+.header-icons img, 
+.header-icons i {
+    height: 59px;         
+    width: 59px;
+    transition: transform 0.8s ease-in-out, filter 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
+    border-radius: 50%;          
+    transition: all 0.8s ease;
+    line-height: 1;
+}
+
+.header-icons img:hover, 
+.header-icons i:hover {
+    filter: invert(100%);
+    transform: scale(1.2); 
+    box-shadow: 0 0 10px rgba(65, 66, 88, 0.5);
+}
+
+.custom-icon {
+    margin-top: 10px;
+}
+</style>
+
+
+</div>

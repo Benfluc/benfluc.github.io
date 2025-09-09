@@ -1,0 +1,115 @@
+<div class="user-details">
+  <h1>Featured Projects</h1>
+</div>
+
+<!-- Projeto 1-->
+<div class="user-projects">
+  <div class="contents">
+    <h3>Forecasting Coffee Export Values Using Artificial Intelligence: 
+      A Comparative Study Between Neural Networks and Decision Trees</h3>
+    <ul>
+      <li>Overview</li>
+    </ul>
+    <p>This project applies time series forecasting to predict monthly Arabica 
+      coffee prices using historical CEPEA data. It compares MLP, LSTM, GRU, Random Forest, 
+      and XGBoost, highlighting the superior performance of neural networks. </p>
+    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project1" target="_blank">
+      Check it out</a>
+  </div>
+  <div class="images-right">
+    <img alt="Coffee" src="{{ '/assets/img/cafe.jpg' | prepend: site.baseurl }}" />
+  </div>
+</div>
+
+<!-- Projeto 2 -->
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="Optimization" src="{{ '/assets/img/otimization.jpg' | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3>An Study About Logistics Cost Minimization with Northwest Corner Rule</h3>
+    <ul>
+      <li>Overview</li>
+    </ul>
+    <p>This project focuses on logistics cost minimization through the classical transportation 
+      problem, applying the Northwest Corner Method to generate an initial feasible solution and 
+      the MODI method for optimization.</p>
+    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project2" target = "blank">
+      Check it out</a>
+  </div>
+</div>
+
+<!-- Projeto 3 -->
+<div class="user-projects">
+  <div class="contents">
+    <h3>Exploratory Data Analysis: Workplace Accidents in Brazil</h3>
+    <ul>
+      <li>Overview</li>
+    </ul>
+    <p>This project conducts an exploratory data analysis of workplace accidents in Brazil. 
+      It examines patterns and trends across different industries, regions, and types of incidents.</p>
+    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project3" target = "blank"> 
+      Check it out</a>
+  </div>
+  <div class="images-right">
+    <img alt="Data Analysis" src="{{ '/assets/img/data.jpg' | prepend: site.baseurl }}" />
+  </div>
+</div>
+
+<style>
+.user-projects {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.images-right {
+  order: 2;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.contents {
+  order: 1;
+  flex: 2;
+  padding: 0 30px;
+}
+
+.images-left {
+  order: 1;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.contents-right {
+  order: 2;
+  flex: 2;
+  padding: 0 20px;
+}
+
+.user-projects img {
+  width: 100%;       
+  max-width: 800px;  
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.user-projects img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 20px rgba(2, 37, 7, 0.3); 
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #04192b;
+  text-decoration: none; 
+  font-weight: bold;
+}
+.project-link:hover {
+  text-decoration: none; 
+  color: #ffffff;       
+}
+</style>
