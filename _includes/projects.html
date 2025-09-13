@@ -1,137 +1,89 @@
-<div class="user-details">
-  <h1>Featured Projects</h1>
+<div class="user-projects-list">
+
+  <!-- Projeto 1 -->
+  <div class="project-item">
+    <img src="{{ '/assets/img/cafe.jpg' | prepend: site.baseurl }}" alt="Coffee">
+    <div class="project-info">
+      <h3>Forecasting Coffee Export Values Using AI</h3>
+      <p><strong>Overview:</strong> Predict monthly Arabica coffee prices using MLP, LSTM, GRU, Random Forest, and XGBoost.</p>
+      <a href="https://github.com/Benfluc/Projects/tree/main/project1" target="_blank">Check it out</a>
+    </div>
+  </div>
+
+  <!-- Projeto 2 -->
+  <div class="project-item">
+    <img src="{{ '/assets/img/otimization.jpg' | prepend: site.baseurl }}" alt="Optimization">
+    <div class="project-info">
+      <h3>Study About Logistics Cost Minimization</h3>
+      <p><strong>Overview:</strong> Minimize logistics costs using the Northwest Corner Method and MODI method for optimization.</p>
+      <a href="https://github.com/Benfluc/Projects/tree/main/project2" target="_blank">Check it out</a>
+    </div>
+  </div>
+
+  <!-- Projeto 3 -->
+  <div class="project-item">
+    <img src="{{ '/assets/img/data.jpg' | prepend: site.baseurl }}" alt="Data Analysis">
+    <div class="project-info">
+      <h3>Exploratory Data Analysis: Workplace Accidents in Brazil</h3>
+      <p><strong>Overview:</strong> Analyze patterns and trends in workplace accidents across industries, regions, and types of incidents.</p>
+      <a href="https://github.com/Benfluc/Projects/tree/main/project3" target="_blank">Check it out</a>
+    </div>
+  </div>
+
+  <!-- Projeto 4 -->
+  <div class="project-item">
+    <img src="{{ '/assets/img/products.jpg' | prepend: site.baseurl }}" alt="Recommendation System">
+    <div class="project-info">
+      <h3>Intelligent Purchase Recommendation System</h3>
+      <p><strong>Overview:</strong> Generate personalized product suggestions based on other customers’ purchases using ML techniques.</p>
+      <a href="https://github.com/Benfluc/Projects/tree/main/project4" target="_blank">Check it out</a>
+    </div>
+  </div>
+
 </div>
-
-<!-- Projeto 1-->
-<div class="user-projects">
-  <div class="contents">
-    <h3>Forecasting Coffee Export Values Using Artificial Intelligence: 
-      A Comparative Study Between Neural Networks and Decision Trees</h3>
-    <ul>
-      <li>Overview</li>
-    </ul>
-    <p>This project applies time series forecasting to predict monthly Arabica 
-      coffee prices using historical CEPEA data. It compares MLP, LSTM, GRU, Random Forest, 
-      and XGBoost, highlighting the superior performance of neural networks. </p>
-    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project1" target="_blank">
-      Check it out</a>
-  </div>
-  <div class="images-right">
-    <img alt="Coffee" src="{{ '/assets/img/cafe.jpg' | prepend: site.baseurl }}" />
-  </div>
-</div>
-
-<!-- Projeto 2 -->
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="Optimization" src="{{ '/assets/img/otimization.jpg' | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3>An Study About Logistics Cost Minimization with Northwest Corner Rule</h3>
-    <ul>
-      <li>Overview</li>
-    </ul>
-    <p>This project focuses on logistics cost minimization through the classical transportation 
-      problem, applying the Northwest Corner Method to generate an initial feasible solution and 
-      the MODI method for optimization.</p>
-    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project2" target = "blank">
-      Check it out</a>
-  </div>
-</div>
-
-<!-- Projeto 3 -->
-<div class="user-projects">
-  <div class="contents">
-    <h3>Exploratory Data Analysis: Workplace Accidents in Brazil</h3>
-    <ul>
-      <li>Overview</li>
-    </ul>
-    <p>This project conducts an exploratory data analysis of workplace accidents in Brazil. 
-      It examines patterns and trends across different industries, regions, and types of incidents.</p>
-    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project3" target = "blank"> 
-      Check it out</a>
-  </div>
-  <div class="images-right">
-    <img alt="Data Analysis" src="{{ '/assets/img/data.jpg' | prepend: site.baseurl }}" />
-  </div>
-</div>
-
-<!-- Projeto 4 -->
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="Optimization" src="{{ '/assets/img/products.jpg' | prepend: site.baseurl }}" />
-  </div>
-  <div class="contents-right">
-    <h3>Building an Intelligent Purchase Recommendation System Based on Other Customers' Choices</h3>
-    <ul>
-      <li>Overview</li>
-    </ul>
-    <p>This project develops an intelligent shopping recommendation system based on other customers’ choices. 
-      Using a dataset of sales from an electronics store, the system identifies consumption patterns and generates 
-      personalized product suggestions, enhancing the user’s shopping experience. The project leverages data analysis
-      and machine learning techniques to turn transaction data into accurate and relevant recommendations..</p>
-    <a class="project-link" href="https://github.com/Benfluc/Projects/tree/main/project4" target = "blank">
-      Check it out</a>
-  </div>
-</div>
-
-
-
 <style>
-.user-projects {
+.user-projects-list {
   display: flex;
-  align-items: center;
-  margin-bottom: 40px;
-  gap: 30px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.images-right {
-  order: 2;
-  flex: 1;
+.project-item {
   display: flex;
-  justify-content: center;
-}
-.contents {
-  order: 1;
-  flex: 2;
-  padding: 0 30px;
+  gap: 15px;
+  align-items: flex-start;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
 }
 
-.images-left {
-  order: 1;
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-.contents-right {
-  order: 2;
-  flex: 2;
-  padding: 0 20px;
+.project-item img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
-.user-projects img {
-  width: 100%;       
-  max-width: 800px;  
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-.user-projects img:hover {
-  transform: scale(1.1); 
-  box-shadow: 0 8px 20px rgba(2, 37, 7, 0.3); 
-}
-
-.project-link {
-  display: inline-block;
-  margin-top: 10px;
+.project-info h3 {
+  margin: 0 0 5px 0;
+  font-size: 1rem;
   color: #04192b;
-  text-decoration: none; 
-  font-weight: bold;
-}
-.project-link:hover {
-  text-decoration: none; 
-  color: #ffffff;       
 }
 
-</style>
+.project-info p {
+  margin: 0 0 5px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.project-info a {
+  font-weight: bold;
+  color: #04192b;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.project-info a:hover {
+  text-decoration: underline;
+}
+  </style>
+
