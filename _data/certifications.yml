@@ -1,1 +1,42 @@
+- name: Python Essentials 1
+  provider: Cisco
+
+- name: Introduction to Data Science
+  provider: Cisco
+
+- name: AI-Enabled Applications for Customer Service
+  provider: IBM
+
+- name: SQL do Zero ao Avançado
+  provider: Udemy
+
+- name: Análise e Manipulação de Dados com Pandas
+  provider: Udemy
+
+- name: Programação Python do Zero à IA
+  provider: Udemy
+
+- name: Ciência de Dados para Iniciantes
+  provider: Udemy
+
+- name: Introdução a Redes Complexas – Medidas de Centralidade
+  provider: FGV
+
+- name: Proteção de Dados
+  provider: FGV
+
+- name: Álgebra Linear e Ciência de Dados
+  provider: FGV
+
+- name: Fundamentos de Linguagem Python para Análise de Dados e Data Science
+  provider: Data Science Academy
+
+- name: Fundamentos de Inteligência Artificial
+  provider: Data Science Academy
+
+- name: Microsoft Power BI para Business Intelligence e Data Science
+  provider: Data Science Academy
+
+- name: Curso Básico Power BI
+  provider: Hashtag Treinamentos
 
