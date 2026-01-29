@@ -1,23 +1,6 @@
  <div class="user-details">
   <h1> About Me </h1>
   <p> {{site.user_description}} </p>
-  <h3>Education</h3>
-<ul>
-  {% for edu in site.data.education %}
-    <li>
-      <strong>{{ edu.degree }}</strong><br>
-      {{ edu.institution }} — {{ edu.status }}
-    </li>
-  {% endfor %}
-</ul>
-  <h3>Certifications</h3>
-<ul>
-  {% for cert in site.data.certifications %}
-    <li>
-      {{ cert.name }} — {{ cert.provider }}
-    </li>
-  {% endfor %}
-</ul>
 </div>
   <div class="user">
     <div class="tech">
@@ -46,4 +29,5 @@
         and project development.</p>
     </div>
 </div>
+
 
