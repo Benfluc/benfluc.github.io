@@ -1,9 +1,11 @@
 <h3>Education</h3>
-<ul>
+<div class="edu-list">
   {% for edu in site.data.education %}
-    <li>
-      <strong>{{ edu.degree }}</strong><br>
-      {{ edu.institution }} — {{ edu.status }}
-    </li>
+    <div class="edu-item">
+      <div class="edu-degree">{{ edu.degree }}</div>
+      <div class="edu-meta">
+        {{ edu.institution }} • {{ edu.status }}
+      </div>
+    </div>
   {% endfor %}
-</ul>
+</div>
