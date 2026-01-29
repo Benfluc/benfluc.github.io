@@ -1,1 +1,8 @@
-
+<h3>Certifications</h3>
+<ul>
+  {% for cert in site.data.certifications %}
+    <li>
+      {{ cert.name }} — {{ cert.provider }}
+    </li>
+  {% endfor %}
+</ul>
