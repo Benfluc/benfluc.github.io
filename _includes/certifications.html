@@ -1,8 +1,9 @@
 <h3>Certifications</h3>
-<ul>
+<div class="cert-list">
   {% for cert in site.data.certifications %}
-    <li>
-      {{ cert.name }} — {{ cert.provider }}
-    </li>
+    <div class="cert-item">
+      <span class="cert-name">{{ cert.name }}</span>
+      <span class="cert-provider"> — {{ cert.provider }}</span>
+    </div>
   {% endfor %}
-</ul>
+</div>
