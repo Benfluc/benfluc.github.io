@@ -25,7 +25,7 @@
 - name: Proteção de Dados
   provider: FGV
 
-- name: Álgebra Linear e Ciência de Dados
+- name: Álgebra Linear para Ciência de Dados
   provider: FGV
 
 - name: Fundamentos de Linguagem Python para Análise de Dados e Data Science
@@ -39,4 +39,7 @@
 
 - name: Curso Básico Power BI
   provider: Hashtag Treinamentos
+
+- name: Aspectos Introdutórios de Business Intelligence
+  provider: FGV
 
