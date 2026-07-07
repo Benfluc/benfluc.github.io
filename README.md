@@ -23,32 +23,6 @@ Veja também o repositório com os projetos: https://github.com/Benfluc/Projects
 - Bundler
 - Jekyll
 
-## Como executar localmente
-
-Clone o repositório:
-
-```bash
-git clone https://github.com/Benfluc/benfluc.github.io.git
-cd benfluc.github.io
-```
-
-Instale as dependências:
-
-```bash
-bundle install
-```
-
-Inicie o servidor local:
-
-```bash
-bundle exec jekyll serve
-```
-
-O site ficará disponível em http://localhost:4000.
-
-## Deploy
-
-O site é publicado automaticamente via GitHub Pages a partir da branch main.
 
 ## Contato
 
