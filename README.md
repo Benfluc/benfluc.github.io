@@ -10,20 +10,6 @@ Sou Analista de Dados e mestrando em Modelagem Computacional, com pós-graduaç�
 
 Veja também o repositório com os projetos: https://github.com/Benfluc/Projects
 
-## Tecnologias
-
-- Jekyll 4
-- Ruby e Bundler
-- HTML, CSS e JavaScript
-- Publicado via GitHub Pages
-
-## Requisitos
-
-- Ruby
-- Bundler
-- Jekyll
-
-
 ## Contato
 
 - Autor: Lúcio Benfica
