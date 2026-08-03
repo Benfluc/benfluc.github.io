@@ -14,5 +14,5 @@ Veja também o repositório com os projetos: https://github.com/Benfluc/Projects
 
 - Autor: Lúcio Benfica
 - E-mail: luciojuniobenfica2@gmail.com
-- LinkedIn: lúcio-j-benfica-6903a3103
-- GitHub: Benfluc
+- LinkedIn: [lúcio-j-benfica-6903a3103](https://br.linkedin.com/in/l%C3%BAcio-j-benfica-6903a3103)
+- GitHub: [Benfluc](https://github.com/Benfluc)
