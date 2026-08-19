@@ -1,3 +1,9 @@
+- name: AWS Cloud Practitioner CLF-C02
+  provider: AWS
+
+- name: Business Analyst
+  provider: IBM
+
 - name: Python Essentials 1
   provider: Cisco
 
@@ -6,18 +12,6 @@
 
 - name: AI-Enabled Applications for Customer Service
   provider: IBM
-
-- name: SQL do Zero ao Avançado
-  provider: Udemy
-
-- name: Análise e Manipulação de Dados com Pandas
-  provider: Udemy
-
-- name: Programação Python do Zero à IA
-  provider: Udemy
-
-- name: Ciência de Dados para Iniciantes
-  provider: Udemy
 
 - name: Introdução a Redes Complexas – Medidas de Centralidade
   provider: FGV
@@ -45,4 +39,7 @@
 
 - name: Data Analytics Essentials
   provider: Cisco
+
+- name: Python Development
+  provider: FIAP
 
