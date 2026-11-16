@@ -5,6 +5,24 @@
 
 <div class="user-projects-list">
 
+
+ <!-- Projeto 13 -->
+ <div class="project-item">
+    <a href="https://github.com/Benfluc/Projects/tree/main/retail_banking_sql" target="_blank"><img src="{{ '/assets/img/retail_banking.jpg' | prepend: site.baseurl }}" alt="Retail Banking Analytics in SQL"></a>
+    <div class="project-info">
+      <a href="https://github.com/Benfluc/Projects/tree/main/retail_banking_sql" target="_blank"><h3> Retail Banking Analytics in SQL </h3></a>
+       <p><strong>Overview:</strong> An end-to-end analytics project written almost entirely in PostgreSQL, built on a synthetic retail bank with 20,000 customers and 1.4 million transactions.
+       It takes raw CSV extracts through a tested star schema and answers banking questions about customer retention, cross-sell, credit risk and money laundering.
+       All data is simulated, with the patterns and data-quality problems planted by a seeded generator. </p>
+      <ul class="project-results">
+        <li>Modelled a star schema with a month-partitioned transaction table, a cleaning layer that logs every rejected row, and 13 automated data-quality tests.</li>
+        <li>Wrote customer and credit-risk analyses in advanced SQL: cohort retention, RFM segmentation, a back-tested churn rule, vintage curves and roll-rate matrices.</li>
+        <li>Built AML detection rules, including a recursive query that traces circular transfers, and scored them for precision and recall.</li>
+     </ul>
+      <a href="https://github.com/Benfluc/Projects/tree/main/retail_banking_sql" target="_blank">Check it out</a>
+    </div>
+  </div>
+
 <!-- Projeto 12 -->
   <div class="project-item">
     <a href="https://github.com/Benfluc/painel-credito-rural" target="_blank"><img src="{{ '/assets/img/rural.jpg' | prepend: site.baseurl }}" alt="Rural Credit Overview"></a>
